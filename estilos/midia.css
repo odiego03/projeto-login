@@ -37,12 +37,18 @@ Grandes telas: acima de 1200px
         height: 350px
     }
     section#login > div#img{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     section#login > div#formu{
-        float: right;
+        float: left;
         width: 50%;
+    }
+    div#formu > h1{
+        font-size: 2em ;
+    }
+    div.formu > p {
+        font-size: 1.2em;
     }
 }
